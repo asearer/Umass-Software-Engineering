@@ -1,0 +1,59 @@
+/* VendingMachine.css */
+body {
+  background-color: #f2f2f2; 
+}
+
+.vm {
+  position: relative;
+  top: -150px;
+}
+
+.vending-machine {
+  width: 180px;
+  height: 400px;
+
+  background-image: url("https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT3WvBPcBPubuR9TfB0uGY8Rj1urXnXxBUS7wkDzboFhdglihiaU0pQJAO0s5M8wTvgTsgfuvln85j37MnXAtuzcOLgO9Qsf4VQQqod_vLcK3RwshlN3YWs4A");
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  margin: auto; 
+  position: relative;
+  top: 100px;
+
+}
+
+.button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2.5px solid #333;
+  cursor: pointer;
+  position: relative;
+  left: 250px;
+}
+
+
+.product {
+  width: 80%;
+  height: 100px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.product img {
+  max-height: 80px;
+  max-width: 80px;
+  margin-right: 10px;
+  
+}

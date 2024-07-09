@@ -1,0 +1,12 @@
+You can reassign and redeclare with var but you cant redeclare using let. 
+You can access a hoisted variable with var. 
+Let creates block scope.
+
+You can reassign and redeclare with var but you cant redeclare or reassign using const. 
+You can access a hoisted variable with var. 
+Const creates block scope.
+
+You can reassign with let but you can't redeclare or reassign using const. 
+
+A way to explain how the JS compiler works. Variables are lifted or hoisted to the top of the scope they are declared in. 
+When using var, you can access the variable name and its undefined value before it gets used later.

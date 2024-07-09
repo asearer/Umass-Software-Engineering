@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Let's Make A Meme!</title>
+  </head>
+  <body>
+    <div id="meme">
+        <h1>Let's Make A Meme!</h1>
+        <div>
+            <form id="meme-form">
+                <p>Enter a URL</p>
+                <input type="url" id="url">
+                <p>Enter top text</p>
+                <input type="text" id="top-input">
+                <p>Enter bottom text</p>
+                <input type="text" id="bottom-input">
+                <p>Click the button to generate a meme</p>
+                <div class="meme-controls">
+                    <button id="meme-button">Generate New Meme</button>
+                    <button id="remove-button">Remove Last Meme</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

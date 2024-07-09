@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Forex Converter{% endblock %}</title>
+    <!-- Link to the CSS file in the "static" folder -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Include Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-pzjw3+3KVsiy4aV5I5fvu+z5r5f+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfjH"
+        crossorigin="anonymous"
+    >
+</head>
+<body>
+    <div class="container mt-5">
+        {% block content %}{% endblock %}
+    </div>
+    
+</body>
+</html>
+

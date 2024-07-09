@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: aqua;
+}
+
+.meme {
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.meme img {
+    max-width: 100%;
+}
+
+.top-text,
+.bottom-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.top-text {
+    top: 10px;
+}
+
+.bottom-text {
+    bottom: 10px;
+}
+
+.meme-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.remove-button {
+    margin-left: 5px;
+}
