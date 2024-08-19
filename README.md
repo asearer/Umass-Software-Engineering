@@ -1,7 +1,3 @@
-Sure, I’d be happy to help with that! Here’s a draft for a `README.md` that elaborates on the exercises from the UMass Global Software Engineering Bootcamp:
-
----
-
 # UMass Global Software Engineering Bootcamp Exercises
 
 Welcome to the repository showcasing some of the exercises completed during the UMass Global Software Engineering Bootcamp (Springboard) for the 2023-2024 session. This repository highlights the practical assignments and projects undertaken throughout the course, providing insight into various software engineering principles and practices.
